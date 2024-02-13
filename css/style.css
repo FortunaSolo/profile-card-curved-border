@@ -9,12 +9,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(212, 204, 204);
+  background: white;
   color: white;
   font-family: sans-serif;
 }
 .container {
-  background: linear-gradient(rgb(145, 145, 224), rgb(56, 56, 141));
+  background: linear-gradient(rgb(74, 154, 151), rgb(32, 111, 108));
   width: 40vw;
   height: 40vw;
   display: flex;
@@ -27,7 +27,7 @@ body {
 .profile {
   width: 20vw;
   height: 20vw;
-  background: rgb(142, 142, 203);
+  background: rgb(92, 156, 154);
   border-radius: 50%;
 }
 .profile img {
@@ -37,11 +37,21 @@ body {
   object-fit: cover;
   margin: 2vw;
 }
-.container i {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 2rem;
+.icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 3rem;
+    height:3rem;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.icon i {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0.8rem;
+  color: rgb(32, 111, 108);
 }
 .container h1 {
   font-size: 1.5rem;
